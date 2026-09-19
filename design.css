@@ -23,19 +23,22 @@
 	--nav-link-color-active: rgb(0, 0, 0); 
 }
 body {
+  font-family: "Space Mono", monospace;
   background-color: var(--base-color);
   color: var(--text-color);
 
 }
 
 h1 {
-  font-family: "Times New Roman";
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 1px;
   text-align: center;
 }
 
 p {
-  font-family: "Times New Roman";
-  font-size: 20px;
+  font-family: "Space Mono", monospace;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 .centerTable {
@@ -115,12 +118,13 @@ td {
     align-items: center;
   }
   .name{
-    font-family: 'Shrikhand', cursive;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1px;  
     justify-self: start;
     padding: 12px 22px;
     font-weight: bold;
     font-size: 2rem;
-    background: linear-gradient(var(--nav-indicator-hover), var(--nav-bg));
+    background: linear-gradient(var(--nav-indicator-active), var(--nav-bg));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
