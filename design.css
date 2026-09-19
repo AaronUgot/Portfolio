@@ -101,9 +101,14 @@ td {
     align-items: center;
   }
   .name{
+    font-family: 'Shrikhand', cursive;
     justify-self: start;
     padding: 12px 22px;
     font-weight: bold;
+    font-size: 2rem;
+    background: linear-gradient(#06b6e2, #535353);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .header > label:last-child{
